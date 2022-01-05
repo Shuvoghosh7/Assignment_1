@@ -1,14 +1,11 @@
-body{
-    
-}
+
 /* Focused on mission 2022 section styling start*/
 span{
     color: mediumvioletred;
 }
 .focoused_main{
     display: flex;
-    padding: 20px;
-    border: 2px solid red;
+    padding: 50px;
 }
 .focused_header{
     width: 50%;
@@ -26,5 +23,45 @@ span{
 }
 .focused_header img{
     width: 50%; 
+    padding-left: 200px;
 }
 /* Focused on mission 2022 section styling end*/
+/*My mission Section Start for styling */
+#missionid{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.my_mission{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+.mission{ 
+    padding-left: 5px;
+    margin: 5px;
+    
+}
+.img{
+    width: 50%;
+}
+.missioncolor_mission{
+    background-color: rgb(230, 173, 195);
+    border-radius: 10px;
+   
+    
+
+}
+.missioncolor_vission{
+    background-color: rgb(173, 230, 206);
+    border-radius: 10px;
+ 
+
+}
+.missioncolor_Goals{
+    background-color: rgba(112, 139, 13);
+    border-radius: 10px;
+    
+}
+/*My mission Section End for styling */
