@@ -1,0 +1,30 @@
+body{
+    
+}
+/* Focused on mission 2022 section styling start*/
+span{
+    color: mediumvioletred;
+}
+.focoused_main{
+    display: flex;
+    padding: 20px;
+    border: 2px solid red;
+}
+.focused_header{
+    width: 50%;
+    padding: 20px;
+}
+.focused_header h1{
+    font-size: 70px;
+    border-left:5px solid maroon ;
+}
+.focused_header a{
+    text-decoration: none;
+    background-color: darkmagenta;
+    padding: 10px;
+    color: white;
+}
+.focused_header img{
+    width: 50%; 
+}
+/* Focused on mission 2022 section styling end*/
