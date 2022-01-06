@@ -104,9 +104,7 @@ span{
     width: 100%;
 }
 /*Develop_without_limit section styling End */
-#recent_project_section{
-    
-}
+/* Start Recent project section*/
 .RECENT_PROJECTS{
     display: flex;
     width: 100%;
@@ -115,6 +113,25 @@ span{
     width: 50%;
     padding: 50px 100px;
 }
-.myproject p{
+.paragraph{
     text-align: justify;
+}
+/* End Recent project section Styling*/
+/*Skill Section styling Start*/
+.skillheader{
+      text-align: center;
+      
+}
+.myskill{
+    display: flex;
+}
+.skill{
+    padding: 50px 100px;
+}
+/*Skill Section styling End*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
