@@ -1,19 +1,27 @@
 
 /* Focused on mission 2022 section styling start*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
 span{
     color: mediumvioletred;
 }
 .focoused_main{
     display: flex;
-    padding: 50px;
+    padding: 20px 100px 10px 100px;
 }
 .focused_header{
     width: 50%;
     padding: 20px;
 }
+.focused_header p{
+    text-align: justify;
+}
 .focused_header h1{
-    font-size: 70px;
+    font-size: 60px;
     border-left:5px solid maroon ;
+ 
+    
 }
 .focused_header a{
     text-decoration: none;
@@ -27,6 +35,12 @@ span{
 }
 /* Focused on mission 2022 section styling end*/
 /*My mission Section Start for styling */
+.mission_section{
+    padding-left: 50px;
+    padding-right:50px;
+    
+}
+
 #missionid{
     text-align: center;
     font-size: 50px;
@@ -34,34 +48,33 @@ span{
 }
 .my_mission{
     display: flex;
-    padding: 50px;
-    
-    
+    padding: 10px 100px; 
 }
 .mission{ 
-    padding-left: 5px;
-    margin: 5px;
-    
+    margin: 5px; 
+    width: 33.33%;
+}
+.mission p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 50px;
 }
 .img{
     width: 50%;
+    
 }
+
 .missioncolor_mission{
     background-color: rgb(230, 173, 195);
     border-radius: 10px;
-   
-    
-
 }
 .missioncolor_vission{
     background-color: rgb(173, 230, 206);
     border-radius: 10px;
- 
-
 }
 .missioncolor_Goals{
     background-color: rgba(112, 139, 13);
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 /*My mission Section End for styling */
