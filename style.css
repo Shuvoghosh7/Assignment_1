@@ -8,21 +8,20 @@ span{
 }
 .focoused_main{
     display: flex;
-    padding: 20px 100px 10px 100px;
+    padding: 50px 100px 10px 100px;
 }
 .focused_header{
     width: 50%;
-    padding: 20px;
+    padding: 10px;
 }
 .focused_header p{
     text-align: justify;
 }
 .focused_header h1{
-    font-size: 60px;
-    border-left:5px solid maroon ;
- 
-    
+    font-size: 50px;
+    border-left: 5px solid maroon;   
 }
+
 .Botton{
     text-decoration: none;
     background-color: maroon;
@@ -87,7 +86,7 @@ span{
 }
 .Develop_without_limit{
     display: flex;
-    padding: 10px 100px;
+    padding: 50px 100px;
     
 }
 .Develop_style{
@@ -104,6 +103,13 @@ span{
 }
 /*Develop_without_limit section styling End */
 /* Start Recent project section*/
+.recent_project_section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px;
+    
+}
 .RECENT_PROJECTS{
     display: flex;
     width: 100%;
@@ -123,9 +129,14 @@ span{
 }
 .myskill{
     display: flex;
+    width: 100%;
+    
 }
 .skill{
     padding: 50px 100px;
+}
+.skill img{
+    border-radius: 50px;
 }
 /*Skill Section styling End*/
 footer{
